@@ -2,6 +2,7 @@ package store
 
 import (
 	"context"
+	"crypto/sha256"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -27,6 +28,10 @@ func (s *Store) Ping(ctx context.Context) error { return s.db.Ping(ctx) }
 
 func newID() string { return uuid.Must(uuid.NewV7()).String() }
 
+func advisoryLockKey(parts ...string) string {
+	return fmt.Sprintf("%x", sha256.Sum256([]byte(strings.Join(parts, "\x00"))))
+}
+
 func setContext(ctx context.Context, tx pgx.Tx, userID, organizationID string) error {
 	if _, err := tx.Exec(ctx, "SELECT set_config('app.user_id', $1, true)", userID); err != nil {
 		return err
@@ -45,7 +50,7 @@ func (s *Store) Bootstrap(ctx context.Context, claims auth.Claims, requestID str
 		return model.Session{}, err
 	}
 	defer tx.Rollback(ctx)
-	if _, err := tx.Exec(ctx, `SELECT pg_advisory_xact_lock(hashtextextended($1, 0))`, claims.Issuer+"\x00"+claims.Subject); err != nil {
+	if _, err := tx.Exec(ctx, `SELECT pg_advisory_xact_lock(hashtextextended($1, 0))`, advisoryLockKey(claims.Issuer, claims.Subject)); err != nil {
 		return model.Session{}, err
 	}
 
@@ -377,7 +382,7 @@ func (s *Store) CreateUpload(ctx context.Context, session model.Session, fileNam
 		return Upload{}, err
 	}
 	defer tx.Rollback(ctx)
-	if _, err := tx.Exec(ctx, `SELECT pg_advisory_xact_lock(hashtextextended($1, 0))`, session.Organization.ID+"\x00"+idempotencyKey); err != nil {
+	if _, err := tx.Exec(ctx, `SELECT pg_advisory_xact_lock(hashtextextended($1, 0))`, advisoryLockKey(session.Organization.ID, idempotencyKey)); err != nil {
 		return Upload{}, err
 	}
 	var existingHash string
@@ -415,7 +420,7 @@ func (s *Store) CreateUpload(ctx context.Context, session model.Session, fileNam
 	if _, err = tx.Exec(ctx, `INSERT INTO resume_uploads(id,organization_id,resume_id,file_object_id,expires_at) VALUES($1,$2,$3,$4,$5)`, upload.ID, session.Organization.ID, upload.ResumeID, upload.FileObjectID, expires); err != nil {
 		return Upload{}, err
 	}
-	if _, err = tx.Exec(ctx, `INSERT INTO audit_logs(id,organization_id,actor_user_id,action,resource_type,resource_id,request_id,metadata) VALUES($1,$2,$3,'resume.upload_created','resume',$4,$5,jsonb_build_object('contentType',$6,'sizeBytes',$7))`, newID(), session.Organization.ID, session.User.ID, upload.ResumeID, requestID, contentType, size); err != nil {
+	if _, err = tx.Exec(ctx, `INSERT INTO audit_logs(id,organization_id,actor_user_id,action,resource_type,resource_id,request_id,metadata) VALUES($1,$2,$3,'resume.upload_created','resume',$4,$5,jsonb_build_object('contentType',$6::text,'sizeBytes',$7::bigint))`, newID(), session.Organization.ID, session.User.ID, upload.ResumeID, requestID, contentType, size); err != nil {
 		return Upload{}, err
 	}
 	responseBody, _ := json.Marshal(upload)

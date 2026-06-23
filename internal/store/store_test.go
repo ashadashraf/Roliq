@@ -1,10 +1,26 @@
 package store
 
 import (
+	"strings"
 	"testing"
 
 	"github.com/roliq/roliq/internal/model"
 )
+
+func TestAdvisoryLockKeyIsDatabaseSafeAndInputSpecific(t *testing.T) {
+	first := advisoryLockKey("https://issuer.example", "user_123")
+	second := advisoryLockKey("https://issuer.example", "user_456")
+
+	if strings.ContainsRune(first, '\x00') {
+		t.Fatal("advisory lock key must not contain a NUL byte")
+	}
+	if len(first) != 64 {
+		t.Fatalf("expected a SHA-256 hex key, got %q", first)
+	}
+	if first == second {
+		t.Fatal("different inputs must produce different lock keys")
+	}
+}
 
 func TestProfileCompletion(t *testing.T) {
 	years := 5.0
