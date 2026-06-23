@@ -1,0 +1,14 @@
+{
+  "name": "@roliq/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "redocly lint openapi.yaml",
+    "lint": "redocly lint openapi.yaml",
+    "typecheck": "node -e \"console.log('No TypeScript sources')\"",
+    "test": "redocly lint openapi.yaml"
+  },
+  "devDependencies": {
+    "@redocly/cli": "^2.34.0"
+  }
+}

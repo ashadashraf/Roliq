@@ -1,0 +1,28 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: roliq
+resources:
+  - namespace.yaml
+  - workloads.yaml
+  - services.yaml
+  - network-policy.yaml
+  - autoscaling.yaml
+configMapGenerator:
+  - name: roliq-runtime
+    literals:
+      - APP_ENV=production
+      - HTTP_ADDRESS=:8080
+      - AWS_REGION=us-east-1
+      - S3_BUCKET=replace-at-deploy
+      - OIDC_AUDIENCE=roliq-api
+      - WEB_ORIGIN=https://app.example.com
+images:
+  - name: roliq-api
+    newName: ghcr.io/roliq/api
+    newTag: latest
+  - name: roliq-worker
+    newName: ghcr.io/roliq/background-worker
+    newTag: latest
+  - name: roliq-web
+    newName: ghcr.io/roliq/web
+    newTag: latest

@@ -1,0 +1,173 @@
+name: roliq
+
+services:
+  postgres:
+    image: postgres:17.5-alpine
+    environment:
+      POSTGRES_DB: roliq
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports: ["55432:5432"]
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./infrastructure/docker/postgres/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d roliq"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  redis:
+    image: redis:7.4-alpine
+    command:
+      [
+        "redis-server",
+        "--appendonly",
+        "yes",
+        "--maxmemory-policy",
+        "noeviction",
+      ]
+    ports: ["6379:6379"]
+    volumes: ["redis-data:/data"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  localstack:
+    image: localstack/localstack:4.6
+    environment:
+      SERVICES: s3,sqs,sns
+      AWS_DEFAULT_REGION: us-east-1
+      DEBUG: 0
+    ports: ["4566:4566"]
+    volumes:
+      - ./infrastructure/docker/localstack/init:/etc/localstack/init/ready.d:ro
+      - localstack-data:/var/lib/localstack
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -fs http://localhost:4566/_localstack/health | grep -q available",
+        ]
+      interval: 5s
+      timeout: 4s
+      retries: 30
+
+  clamav:
+    image: clamav/clamav:1.4
+    ports: ["3310:3310"]
+    volumes: ["clamav-data:/var/lib/clamav"]
+    healthcheck:
+      test: ["CMD-SHELL", "echo PING | nc 127.0.0.1 3310 | grep -q PONG"]
+      interval: 15s
+      timeout: 5s
+      start_period: 60s
+      retries: 20
+
+  migrate:
+    build:
+      context: .
+      dockerfile: services/api/Dockerfile
+    entrypoint: ["/app/migrate"]
+    environment:
+      MIGRATION_DATABASE_URL: postgres://postgres:postgres@postgres:5432/roliq?sslmode=disable
+    depends_on:
+      postgres: { condition: service_healthy }
+    restart: "no"
+
+  api:
+    build:
+      context: .
+      dockerfile: services/api/Dockerfile
+    environment:
+      APP_ENV: development
+      HTTP_ADDRESS: :8080
+      DATABASE_URL: postgres://roliq_app:roliq_app@postgres:5432/roliq?sslmode=disable
+      REDIS_URL: redis://redis:6379/0
+      OIDC_ISSUER_URL: ${OIDC_ISSUER_URL:?Set OIDC_ISSUER_URL in .env}
+      OIDC_JWKS_URL: ${OIDC_JWKS_URL:-}
+      OIDC_AUDIENCE: ${OIDC_AUDIENCE:-roliq-api}
+      WEB_ORIGIN: http://localhost:3000
+      AWS_REGION: us-east-1
+      S3_BUCKET: roliq-resumes-local
+      S3_ENDPOINT: http://localstack:4566
+      S3_PUBLIC_ENDPOINT: http://localhost:4566
+      S3_ACCESS_KEY_ID: test
+      S3_SECRET_ACCESS_KEY: test
+      S3_FORCE_PATH_STYLE: "true"
+      OTEL_EXPORTER_OTLP_ENDPOINT: ${OTEL_EXPORTER_OTLP_ENDPOINT:-}
+    ports: ["8080:8080"]
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+      redis: { condition: service_healthy }
+      localstack: { condition: service_healthy }
+    healthcheck:
+      test: ["CMD", "/app/healthcheck"]
+      interval: 10s
+      timeout: 3s
+      retries: 15
+      start_period: 10s
+
+  worker:
+    build:
+      context: .
+      dockerfile: workers/background/Dockerfile
+    environment:
+      APP_ENV: development
+      WORKER_DATABASE_URL: postgres://roliq_worker:roliq_worker@postgres:5432/roliq?sslmode=disable
+      AWS_REGION: us-east-1
+      S3_BUCKET: roliq-resumes-local
+      S3_ENDPOINT: http://localstack:4566
+      S3_ACCESS_KEY_ID: test
+      S3_SECRET_ACCESS_KEY: test
+      S3_FORCE_PATH_STYLE: "true"
+      SQS_QUEUE_URL: http://localstack:4566/000000000000/roliq-domain-events
+      SQS_ENDPOINT: http://localstack:4566
+      CLAMAV_ADDRESS: clamav:3310
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+      localstack: { condition: service_healthy }
+      clamav: { condition: service_healthy }
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:8080
+        NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: ${NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY:?Set NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY in .env}
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8080
+      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: ${NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}
+      CLERK_SECRET_KEY: ${CLERK_SECRET_KEY:?Set CLERK_SECRET_KEY in .env}
+    ports: ["3000:3000"]
+    depends_on:
+      api: { condition: service_healthy }
+
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:0.128.0
+    profiles: [observability]
+    command: ["--config=/etc/otel/config.yaml"]
+    volumes:
+      ["./infrastructure/docker/otel/config.yaml:/etc/otel/config.yaml:ro"]
+    ports: ["4317:4317", "4318:4318"]
+
+  prometheus:
+    image: prom/prometheus:v3.4.1
+    profiles: [observability]
+    command: ["--config.file=/etc/prometheus/prometheus.yml"]
+    volumes:
+      [
+        "./infrastructure/docker/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro",
+      ]
+    ports: ["9090:9090"]
+    depends_on:
+      api: { condition: service_healthy }
+
+volumes:
+  postgres-data:
+  redis-data:
+  localstack-data:
+  clamav-data:

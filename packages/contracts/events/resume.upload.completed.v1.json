@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://contracts.roliq.com/events/resume.upload.completed.v1.json",
+  "title": "resume.upload.completed.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "eventId",
+    "organizationId",
+    "resumeId",
+    "fileObjectId",
+    "occurredAt"
+  ],
+  "properties": {
+    "eventId": { "type": "string", "format": "uuid" },
+    "organizationId": { "type": "string", "format": "uuid" },
+    "resumeId": { "type": "string", "format": "uuid" },
+    "fileObjectId": { "type": "string", "format": "uuid" },
+    "occurredAt": { "type": "string", "format": "date-time" }
+  }
+}

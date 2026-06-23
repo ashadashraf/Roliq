@@ -1,0 +1,285 @@
+openapi: 3.1.0
+info:
+  title: Roliq API
+  version: 1.0.0
+  license: { name: Proprietary, identifier: LicenseRef-Proprietary }
+  description: Tenant-scoped Phase 1 API for identity bootstrap, career profiles, onboarding, and secure resume intake.
+servers:
+  - url: "{scheme}://{host}"
+    variables:
+      scheme: { default: https, enum: [https, http] }
+      host: { default: api.roliq.com }
+security:
+  - bearerAuth: []
+paths:
+  /health/live:
+    get:
+      summary: Check process liveness
+      operationId: liveness
+      security: []
+      responses:
+        "200": { description: Process is alive }
+        "429": { $ref: "#/components/responses/Problem" }
+  /health/ready:
+    get:
+      summary: Check dependency readiness
+      operationId: readiness
+      security: []
+      responses:
+        "200": { description: Required dependencies are available }
+        "429": { $ref: "#/components/responses/Problem" }
+        "503": { $ref: "#/components/responses/Problem" }
+  /v1/session/bootstrap:
+    post:
+      summary: Bootstrap the current application session
+      operationId: bootstrapSession
+      description: Idempotently provisions an application user and personal organization from verified OIDC claims.
+      responses:
+        "200":
+          description: Current tenant context
+          content: { application/json: { schema: { $ref: "#/components/schemas/SessionContext" } } }
+        "401": { $ref: "#/components/responses/Problem" }
+  /v1/me:
+    get:
+      summary: Get the active user and workspace
+      operationId: getSessionContext
+      parameters: [{ $ref: "#/components/parameters/OrganizationId" }]
+      responses:
+        "200":
+          description: Current tenant context
+          content: { application/json: { schema: { $ref: "#/components/schemas/SessionContext" } } }
+        "403": { $ref: "#/components/responses/Problem" }
+  /v1/dashboard:
+    get:
+      summary: Get the persisted dashboard summary
+      operationId: getDashboard
+      parameters: [{ $ref: "#/components/parameters/OrganizationId" }]
+      responses:
+        "200":
+          description: Persisted dashboard summary
+          content: { application/json: { schema: { $ref: "#/components/schemas/Dashboard" } } }
+        "401": { $ref: "#/components/responses/Problem" }
+  /v1/onboarding:
+    get:
+      summary: Get onboarding progress
+      operationId: getOnboarding
+      parameters: [{ $ref: "#/components/parameters/OrganizationId" }]
+      responses:
+        "200":
+          description: Current onboarding progress
+          content: { application/json: { schema: { $ref: "#/components/schemas/Onboarding" } } }
+        "401": { $ref: "#/components/responses/Problem" }
+    patch:
+      summary: Update onboarding progress
+      operationId: updateOnboarding
+      parameters: [{ $ref: "#/components/parameters/OrganizationId" }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: false
+              properties:
+                currentStep: { type: integer, minimum: 1, maximum: 4 }
+                status: { $ref: "#/components/schemas/OnboardingStatus" }
+                profileMethod: { type: string, enum: [resume, manual] }
+      responses:
+        "200":
+          description: Updated progress
+          content: { application/json: { schema: { $ref: "#/components/schemas/Onboarding" } } }
+        "422": { $ref: "#/components/responses/Problem" }
+  /v1/career-profile:
+    get:
+      summary: Get the structured career profile
+      operationId: getCareerProfile
+      parameters: [{ $ref: "#/components/parameters/OrganizationId" }]
+      responses:
+        "200":
+          description: Career profile
+          content: { application/json: { schema: { $ref: "#/components/schemas/CareerProfile" } } }
+        "401": { $ref: "#/components/responses/Problem" }
+    put:
+      summary: Replace the structured career profile
+      operationId: replaceCareerProfile
+      parameters: [{ $ref: "#/components/parameters/OrganizationId" }]
+      requestBody:
+        required: true
+        content: { application/json: { schema: { $ref: "#/components/schemas/CareerProfile" } } }
+      responses:
+        "200":
+          description: Saved career profile
+          content: { application/json: { schema: { $ref: "#/components/schemas/CareerProfile" } } }
+        "422": { $ref: "#/components/responses/Problem" }
+  /v1/resumes:
+    get:
+      summary: List resumes for the current user
+      operationId: listResumes
+      parameters: [{ $ref: "#/components/parameters/OrganizationId" }]
+      responses:
+        "200":
+          description: Resumes owned by the current user in the active organization
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [items]
+                properties: { items: { type: array, items: { $ref: "#/components/schemas/Resume" } } }
+        "401": { $ref: "#/components/responses/Problem" }
+  /v1/resume-uploads:
+    post:
+      summary: Create a secure resume upload intent
+      operationId: createResumeUpload
+      parameters:
+        - { $ref: "#/components/parameters/OrganizationId" }
+        - name: Idempotency-Key
+          in: header
+          required: true
+          schema: { type: string, minLength: 16, maxLength: 128 }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: false
+              required: [fileName, contentType, sizeBytes, checksumSha256]
+              properties:
+                fileName: { type: string, minLength: 1, maxLength: 255 }
+                contentType: { type: string, enum: [application/pdf, application/vnd.openxmlformats-officedocument.wordprocessingml.document] }
+                sizeBytes: { type: integer, minimum: 1, maximum: 10485760 }
+                checksumSha256: { type: string, pattern: "^[0-9a-f]{64}$" }
+      responses:
+        "201":
+          description: Short-lived presigned upload intent
+          content: { application/json: { schema: { $ref: "#/components/schemas/UploadIntent" } } }
+        "422": { $ref: "#/components/responses/Problem" }
+  /v1/resume-uploads/{uploadId}/complete:
+    post:
+      summary: Verify and complete a resume upload
+      operationId: completeResumeUpload
+      parameters:
+        - { $ref: "#/components/parameters/OrganizationId" }
+        - name: uploadId
+          in: path
+          required: true
+          schema: { type: string, format: uuid }
+      responses:
+        "200":
+          description: Verified upload queued for security scanning
+          content: { application/json: { schema: { $ref: "#/components/schemas/Resume" } } }
+        "404": { $ref: "#/components/responses/Problem" }
+        "409": { $ref: "#/components/responses/Problem" }
+        "422": { $ref: "#/components/responses/Problem" }
+components:
+  securitySchemes:
+    bearerAuth: { type: http, scheme: bearer, bearerFormat: JWT }
+  parameters:
+    OrganizationId:
+      name: X-Organization-ID
+      in: header
+      required: false
+      description: Active organization. The personal workspace is selected when omitted.
+      schema: { type: string, format: uuid }
+  responses:
+    Problem:
+      description: RFC 9457-compatible error
+      content: { application/problem+json: { schema: { $ref: "#/components/schemas/Problem" } } }
+  schemas:
+    OnboardingStatus: { type: string, enum: [not_started, in_progress, completed] }
+    Onboarding:
+      type: object
+      required: [currentStep, status]
+      properties:
+        currentStep: { type: integer, minimum: 1, maximum: 4 }
+        status: { $ref: "#/components/schemas/OnboardingStatus" }
+        profileMethod: { type: string, enum: [resume, manual] }
+        completedAt: { type: string, format: date-time }
+    SessionContext:
+      type: object
+      required: [user, organization, onboarding]
+      properties:
+        user:
+          type: object
+          required: [id, email, displayName]
+          properties: { id: { type: string, format: uuid }, email: { type: string, format: email }, displayName: { type: string } }
+        organization:
+          type: object
+          required: [id, name, slug, type]
+          properties: { id: { type: string, format: uuid }, name: { type: string }, slug: { type: string }, type: { type: string, enum: [personal, team] } }
+        onboarding: { $ref: "#/components/schemas/Onboarding" }
+    CareerProfile:
+      type: object
+      additionalProperties: false
+      required: [headline, summary, countryCode, timeZone, city, skills, experiences, education]
+      properties:
+        headline: { type: string, maxLength: 160 }
+        summary: { type: string, maxLength: 4000 }
+        countryCode: { type: string, maxLength: 2 }
+        timeZone: { type: string }
+        city: { type: string, maxLength: 120 }
+        yearsExperience: { type: number, minimum: 0, maximum: 80 }
+        skills: { type: array, maxItems: 100, items: { type: string, minLength: 1, maxLength: 80 } }
+        experiences: { type: array, items: { $ref: "#/components/schemas/Experience" } }
+        education: { type: array, items: { $ref: "#/components/schemas/Education" } }
+        updatedAt: { type: string, format: date-time, readOnly: true }
+    Experience:
+      type: object
+      required: [company, title, startDate, isCurrent]
+      properties:
+        id: { type: string, format: uuid }
+        company: { type: string, minLength: 1, maxLength: 160 }
+        title: { type: string, minLength: 1, maxLength: 160 }
+        location: { type: string, maxLength: 160 }
+        startDate: { type: string, format: date }
+        endDate: { type: string, format: date }
+        isCurrent: { type: boolean }
+        description: { type: string, maxLength: 5000 }
+    Education:
+      type: object
+      required: [institution]
+      properties:
+        id: { type: string, format: uuid }
+        institution: { type: string, minLength: 1, maxLength: 200 }
+        degree: { type: string, maxLength: 160 }
+        fieldOfStudy: { type: string, maxLength: 160 }
+        startDate: { type: string, format: date }
+        endDate: { type: string, format: date }
+    Resume:
+      type: object
+      required: [id, fileName, status, createdAt]
+      properties:
+        id: { type: string, format: uuid }
+        fileName: { type: string }
+        status: { type: string, enum: [pending, uploaded, scanning, ready, rejected, failed] }
+        rejectionReason: { type: string }
+        createdAt: { type: string, format: date-time }
+    UploadIntent:
+      type: object
+      required: [uploadId, resumeId, uploadUrl, objectKey, expiresAt, requiredHeaders]
+      properties:
+        uploadId: { type: string, format: uuid }
+        resumeId: { type: string, format: uuid }
+        uploadUrl: { type: string, format: uri }
+        objectKey: { type: string }
+        expiresAt: { type: string, format: date-time }
+        requiredHeaders: { type: object, additionalProperties: { type: string } }
+    Dashboard:
+      type: object
+      required: [profileCompletion, onboarding, resumes]
+      properties:
+        profileCompletion: { type: integer, minimum: 0, maximum: 100 }
+        onboarding: { $ref: "#/components/schemas/Onboarding" }
+        profile: { oneOf: [{ $ref: "#/components/schemas/CareerProfile" }, { type: "null" }] }
+        resumes: { type: array, items: { $ref: "#/components/schemas/Resume" } }
+    Problem:
+      type: object
+      required: [type, title, status, code, detail, requestId]
+      properties:
+        type: { type: string, format: uri }
+        title: { type: string }
+        status: { type: integer }
+        code: { type: string }
+        detail: { type: string }
+        requestId: { type: string }
+        fields: { type: object, additionalProperties: { type: string } }
