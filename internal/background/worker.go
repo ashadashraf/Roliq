@@ -184,7 +184,7 @@ func scanClamAV(ctx context.Context, address string, data []byte) (bool, string,
 	if err != nil {
 		return false, "", err
 	}
-	detail := strings.TrimSpace(string(response))
+	detail := normalizeClamAVDetail(response)
 	if strings.Contains(detail, "FOUND") {
 		return false, detail, nil
 	}
@@ -192,6 +192,10 @@ func scanClamAV(ctx context.Context, address string, data []byte) (bool, string,
 		return true, detail, nil
 	}
 	return false, detail, fmt.Errorf("unexpected ClamAV response: %s", detail)
+}
+
+func normalizeClamAVDetail(response []byte) string {
+	return strings.TrimSpace(strings.ReplaceAll(string(response), "\x00", ""))
 }
 
 func (w *Worker) finishScan(ctx context.Context, job scanJob, status, detail string, cause error) error {

@@ -1,0 +1,28 @@
+{
+  "evaluationEmphasis": [
+    "multiple roles",
+    "current employment",
+    "quantified highlights",
+    "certification"
+  ],
+  "fixtureId": "senior_backend_engineer",
+  "layoutTags": [
+    "dense",
+    "reverse-chronological",
+    "metrics",
+    "current-role"
+  ],
+  "metricWeights": {
+    "certifications": 1,
+    "dates": 1,
+    "education": 1,
+    "evidenceCoverage": 2,
+    "experience": 1,
+    "hallucination": 2,
+    "skills": 1
+  },
+  "pageCount": 1,
+  "sourceFile": "resume.pdf",
+  "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5",
+  "synthetic": true
+}

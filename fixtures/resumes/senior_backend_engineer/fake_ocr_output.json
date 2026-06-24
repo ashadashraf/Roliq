@@ -1,0 +1,11 @@
+{
+  "fixtureId": "senior_backend_engineer",
+  "pages": [
+    {
+      "confidence": 1,
+      "pageNumber": 1,
+      "text": "Avery Sen\nSenior Backend Engineer\navery.sen@example.com\nBengaluru, India\nBackend engineer with nine years of experience building reliable multi-tenant platforms and event-driven services.\nGo\nPostgreSQL\nKubernetes\nKafka\nAWS\nOpenTelemetry\nSenior Backend Engineer\nNorthstar Systems\nApr 2021 - Present\nLed a Go platform serving 18 million monthly API requests with a 99.95 percent availability target.\nReduced event-processing latency by 42 percent through partition redesign and idempotent consumers.\nBackend Engineer\nHarbor Stack\nJun 2017 - Mar 2021\nDesigned PostgreSQL tenancy controls and audit trails for regulated customer workflows.\nBTech\nComputer Science\nRiverdale Institute of Technology\n2017\nCloud Architecture Professional\nSynthetic Cloud Foundation\n2023-09\nEnglish\nProfessional\nHindi\nNative\nPortfolio\nhttps://example.com/avery-sen"
+    }
+  ],
+  "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+}

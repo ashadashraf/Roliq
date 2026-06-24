@@ -1,0 +1,11 @@
+{
+  "fixtureId": "frontend_engineer",
+  "pages": [
+    {
+      "confidence": 1,
+      "pageNumber": 1,
+      "text": "Maya Torres\nFrontend Engineer\nmaya.torres@example.com\nMadrid, Spain\nFrontend engineer focused on accessible design systems, performance, and maintainable product interfaces.\nTypeScript\nReact\nNext.js\nCSS\nAccessibility\nPlaywright\nFrontend Engineer\nLumen Commerce\nFeb 2022 - Present\nBuilt an accessible component library adopted by six product teams.\nImproved largest contentful paint from 3.4 seconds to 1.8 seconds on the checkout flow.\nJunior Web Developer\nBrightside Labs\nJul 2020 - Jan 2022\nCreated tested React interfaces from product and research specifications.\nBSc\nInteractive Media\nCentral Design University\n2020\nContrast Compass\nOpen-source color contrast review utility.\nTypeScript\nReact\nSpanish\nNative\nEnglish\nProfessional\nGitHub\nhttps://example.com/maya-torres"
+    }
+  ],
+  "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+}

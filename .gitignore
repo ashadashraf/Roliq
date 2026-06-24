@@ -3,11 +3,16 @@
 .env.*.local
 !.env.example
 node_modules/
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
 .next/
 dist/
 coverage/
 .turbo/
 .cache/
+.clerk/
 bin/
 tmp/
 *.log

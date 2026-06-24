@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://contracts.roliq.com/events/resume.parse.failed.v1.json",
+  "title": "resume.parse.failed.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "eventType",
+    "eventVersion",
+    "eventId",
+    "occurredAt",
+    "correlationId",
+    "organizationId",
+    "parsingJobId",
+    "resumeId",
+    "sourceVersionId",
+    "category",
+    "errorCode",
+    "retryable",
+    "attempt"
+  ],
+  "properties": {
+    "eventType": { "const": "resume.parse.failed" },
+    "eventVersion": { "const": 1 },
+    "eventId": { "type": "string", "format": "uuid" },
+    "occurredAt": { "type": "string", "format": "date-time" },
+    "correlationId": { "type": "string", "format": "uuid" },
+    "organizationId": { "type": "string", "format": "uuid" },
+    "parsingJobId": { "type": "string", "format": "uuid" },
+    "resumeId": { "type": "string", "format": "uuid" },
+    "sourceVersionId": { "type": "string", "format": "uuid" },
+    "category": {
+      "type": "string",
+      "enum": [
+        "invalid_input",
+        "needs_ocr",
+        "schema_rejected",
+        "budget_exceeded",
+        "provider_timeout",
+        "provider_rate_limited",
+        "provider_unavailable",
+        "content_rejected",
+        "canceled",
+        "internal"
+      ]
+    },
+    "errorCode": { "type": "string", "pattern": "^[a-z][a-z0-9_.-]{1,63}$" },
+    "retryable": { "type": "boolean" },
+    "attempt": { "type": "integer", "minimum": 1, "maximum": 3 }
+  }
+}

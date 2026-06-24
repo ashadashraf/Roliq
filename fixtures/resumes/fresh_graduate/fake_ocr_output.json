@@ -1,0 +1,11 @@
+{
+  "fixtureId": "fresh_graduate",
+  "pages": [
+    {
+      "confidence": 1,
+      "pageNumber": 1,
+      "text": "Nia Patel\nGraduate Software Engineer\nnia.patel@example.com\nPune, India\nComputer science graduate with internship and project experience in web services, testing, and data structures.\nJava\nPython\nGit\nREST APIs\nUnit Testing\nSoftware Engineering Intern\nMaple Byte Studio\nJan 2025 - Jun 2025\nAdded API validation and unit tests for a campus scheduling product.\nBEng\nComputer Science\nWestern Valley College\n2025\n8.6 GPA\nStudy Circle\nPeer study-group scheduling application.\nJava\nREST APIs\nEnglish\nProfessional\nMarathi\nNative\nProjects\nhttps://example.com/nia-patel"
+    }
+  ],
+  "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+}

@@ -1,0 +1,11 @@
+{
+  "fixtureId": "product_manager",
+  "pages": [
+    {
+      "confidence": 1,
+      "pageNumber": 1,
+      "text": "Elias Morgan\nSenior Product Manager\nelias.morgan@example.com\nDublin, Ireland\nProduct manager leading discovery, delivery, and measurable adoption for B2B financial software.\nProduct Strategy\nCustomer Research\nRoadmapping\nSQL\nExperimentation\nStakeholder Management\nSenior Product Manager\nOrbit Payments\nNov 2021 - Present\nLaunched reconciliation workflows that reached 64 percent customer adoption in two quarters.\nLed quarterly planning across engineering, design, operations, and compliance.\nProduct Manager\nFieldnote Software\nMar 2018 - Oct 2021\nEstablished customer interview and experiment-review practices for three product areas.\nBA\nEconomics\nEastborough University\n2017\nProduct Discovery Practitioner\nSynthetic Product Guild\n2020-05\nEnglish\nNative\nCase studies\nhttps://example.com/elias-morgan"
+    }
+  ],
+  "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+}

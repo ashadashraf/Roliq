@@ -1,0 +1,554 @@
+{
+  "candidate": {
+    "email": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "elias.morgan@example.com",
+          "page": 1,
+          "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "elias.morgan@example.com",
+      "warnings": []
+    },
+    "fullName": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Elias Morgan",
+          "page": 1,
+          "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Elias Morgan",
+      "warnings": []
+    },
+    "headline": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Senior Product Manager",
+          "page": 1,
+          "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Senior Product Manager",
+      "warnings": []
+    },
+    "location": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Dublin, Ireland",
+          "page": 1,
+          "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Dublin, Ireland",
+      "warnings": []
+    }
+  },
+  "certifications": [
+    {
+      "id": "971b864c-0e69-59bc-af03-ba0094cefc5b",
+      "issuedDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "2020-05",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2020-05",
+        "warnings": []
+      },
+      "issuer": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Synthetic Product Guild",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Synthetic Product Guild",
+        "warnings": []
+      },
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Product Discovery Practitioner",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Product Discovery Practitioner",
+        "warnings": []
+      }
+    }
+  ],
+  "createdAt": "2026-01-01T00:00:00Z",
+  "documentId": "5c91d3c0-4e93-5785-91bc-66f1cf8074f0",
+  "education": [
+    {
+      "degree": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "BA",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "BA",
+        "warnings": []
+      },
+      "endDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "2017",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "year",
+        "reviewState": "unreviewed",
+        "value": "2017",
+        "warnings": []
+      },
+      "fieldOfStudy": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Economics",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Economics",
+        "warnings": []
+      },
+      "id": "1cdbb42c-9e3c-5183-854d-ac4dd6a24e08",
+      "institution": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Eastborough University",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Eastborough University",
+        "warnings": []
+      }
+    }
+  ],
+  "experience": [
+    {
+      "company": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Orbit Payments",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Orbit Payments",
+        "warnings": []
+      },
+      "highlights": [
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Launched reconciliation workflows that reached 64 percent customer adoption in two quarters.",
+              "page": 1,
+              "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Launched reconciliation workflows that reached 64 percent customer adoption in two quarters.",
+          "warnings": []
+        },
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Led quarterly planning across engineering, design, operations, and compliance.",
+              "page": 1,
+              "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Led quarterly planning across engineering, design, operations, and compliance.",
+          "warnings": []
+        }
+      ],
+      "id": "01cc6c37-a5d4-530d-8760-9844d2a705e7",
+      "isCurrent": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Nov 2021 - Present",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": true,
+        "warnings": []
+      },
+      "startDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Nov 2021 - Present",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2021-11",
+        "warnings": []
+      },
+      "title": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Senior Product Manager",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Senior Product Manager",
+        "warnings": []
+      }
+    },
+    {
+      "company": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Fieldnote Software",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Fieldnote Software",
+        "warnings": []
+      },
+      "endDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Mar 2018 - Oct 2021",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2021-10",
+        "warnings": []
+      },
+      "highlights": [
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Established customer interview and experiment-review practices for three product areas.",
+              "page": 1,
+              "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Established customer interview and experiment-review practices for three product areas.",
+          "warnings": []
+        }
+      ],
+      "id": "452e133c-5a5c-5a95-ba2c-dcaea9fcf6b7",
+      "isCurrent": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Mar 2018 - Oct 2021",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": false,
+        "warnings": []
+      },
+      "startDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Mar 2018 - Oct 2021",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2018-03",
+        "warnings": []
+      },
+      "title": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Product Manager",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Product Manager",
+        "warnings": []
+      }
+    }
+  ],
+  "languages": [
+    {
+      "id": "9fd4a575-6dad-526d-b73d-51d4f9137ecb",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "English",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "English",
+        "warnings": []
+      },
+      "proficiency": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Native",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Native",
+        "warnings": []
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "91dcde97-3609-50ab-b9be-acd07d3aaec1",
+      "label": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Case studies",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Case studies",
+        "warnings": []
+      },
+      "url": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "https://example.com/elias-morgan",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "https://example.com/elias-morgan",
+        "warnings": []
+      }
+    }
+  ],
+  "projects": [],
+  "review": {
+    "revision": 1,
+    "state": "needs_review",
+    "warnings": []
+  },
+  "schemaVersion": "resume-document.v1",
+  "skills": [
+    {
+      "id": "8c28aa42-a9a6-504d-a346-3cd950906d69",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Product Strategy",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Product Strategy",
+        "warnings": []
+      }
+    },
+    {
+      "id": "9e04ff9d-2baf-5bb9-ba74-76f406a41c2c",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Customer Research",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Customer Research",
+        "warnings": []
+      }
+    },
+    {
+      "id": "c5af3b7e-c4c1-5c7a-9a21-78dbf44cf9e7",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Roadmapping",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Roadmapping",
+        "warnings": []
+      }
+    },
+    {
+      "id": "57790799-e3c8-5576-836f-3827f631a7f6",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "SQL",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "SQL",
+        "warnings": []
+      }
+    },
+    {
+      "id": "69d99ed1-edd7-5efc-a497-15606b2bf9f0",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Experimentation",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Experimentation",
+        "warnings": []
+      }
+    },
+    {
+      "id": "0830fbb8-777e-52ae-83b0-edff8754c333",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Stakeholder Management",
+            "page": 1,
+            "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Stakeholder Management",
+        "warnings": []
+      }
+    }
+  ],
+  "source": {
+    "contentSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c",
+    "fileObjectId": "67bb6fc0-76d6-5124-83bd-a40c2493b23b",
+    "mediaType": "application/pdf",
+    "pageCount": 1,
+    "resumeId": "a7de7c63-bdaa-52b0-9e31-63330d6053c5",
+    "sourceVersionId": "14d161aa-41a9-5aba-ae11-15bc035c12cd"
+  },
+  "summary": {
+    "confidence": 1,
+    "evidence": [
+      {
+        "excerpt": "Product manager leading discovery, delivery, and measurable adoption for B2B financial software.",
+        "page": 1,
+        "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+      }
+    ],
+    "origin": "extracted",
+    "reviewState": "unreviewed",
+    "value": "Product manager leading discovery, delivery, and measurable adoption for B2B financial software.",
+    "warnings": []
+  }
+}

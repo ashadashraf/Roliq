@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://contracts.roliq.com/common/artifact-pointer.v1.schema.json",
+  "title": "Private artifact pointer v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bucket",
+    "objectKey",
+    "checksumSha256",
+    "sizeBytes",
+    "contentType"
+  ],
+  "properties": {
+    "bucket": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9.-]{1,61}[a-z0-9]$"
+    },
+    "objectKey": { "type": "string", "minLength": 1, "maxLength": 1024 },
+    "checksumSha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "sizeBytes": { "type": "integer", "minimum": 1, "maximum": 52428800 },
+    "contentType": { "type": "string", "minLength": 1, "maxLength": 255 }
+  }
+}

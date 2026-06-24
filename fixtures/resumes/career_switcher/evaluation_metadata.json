@@ -1,0 +1,26 @@
+{
+  "evaluationEmphasis": [
+    "do not invent analyst employment",
+    "transferable experience",
+    "new certification"
+  ],
+  "fixtureId": "career_switcher",
+  "layoutTags": [
+    "career-transition",
+    "transferable-skills",
+    "project-and-certificate"
+  ],
+  "metricWeights": {
+    "certifications": 1,
+    "dates": 1,
+    "education": 1,
+    "evidenceCoverage": 2,
+    "experience": 1,
+    "hallucination": 2,
+    "skills": 1
+  },
+  "pageCount": 1,
+  "sourceFile": "resume.pdf",
+  "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05",
+  "synthetic": true
+}

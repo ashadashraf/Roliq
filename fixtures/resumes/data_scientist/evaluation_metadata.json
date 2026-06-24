@@ -1,0 +1,26 @@
+{
+  "evaluationEmphasis": [
+    "hyphenated skills",
+    "model terminology",
+    "education degree"
+  ],
+  "fixtureId": "data_scientist",
+  "layoutTags": [
+    "scientific-terms",
+    "mixed-case-skills",
+    "metrics"
+  ],
+  "metricWeights": {
+    "certifications": 1,
+    "dates": 1,
+    "education": 1,
+    "evidenceCoverage": 2,
+    "experience": 1,
+    "hallucination": 2,
+    "skills": 1
+  },
+  "pageCount": 1,
+  "sourceFile": "resume.pdf",
+  "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e",
+  "synthetic": true
+}

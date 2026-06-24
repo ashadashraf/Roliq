@@ -1,0 +1,48 @@
+{
+  "fixtures": [
+    {
+      "directory": "senior_backend_engineer",
+      "expectedDocument": "expected_resume_document_v1.json",
+      "fakeOcrOutput": "fake_ocr_output.json",
+      "id": "senior_backend_engineer",
+      "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+    },
+    {
+      "directory": "frontend_engineer",
+      "expectedDocument": "expected_resume_document_v1.json",
+      "fakeOcrOutput": "fake_ocr_output.json",
+      "id": "frontend_engineer",
+      "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+    },
+    {
+      "directory": "data_scientist",
+      "expectedDocument": "expected_resume_document_v1.json",
+      "fakeOcrOutput": "fake_ocr_output.json",
+      "id": "data_scientist",
+      "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+    },
+    {
+      "directory": "fresh_graduate",
+      "expectedDocument": "expected_resume_document_v1.json",
+      "fakeOcrOutput": "fake_ocr_output.json",
+      "id": "fresh_graduate",
+      "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+    },
+    {
+      "directory": "product_manager",
+      "expectedDocument": "expected_resume_document_v1.json",
+      "fakeOcrOutput": "fake_ocr_output.json",
+      "id": "product_manager",
+      "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c"
+    },
+    {
+      "directory": "career_switcher",
+      "expectedDocument": "expected_resume_document_v1.json",
+      "fakeOcrOutput": "fake_ocr_output.json",
+      "id": "career_switcher",
+      "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+    }
+  ],
+  "schemaVersion": 1,
+  "syntheticOnly": true
+}

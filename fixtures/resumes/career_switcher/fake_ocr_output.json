@@ -1,0 +1,11 @@
+{
+  "fixtureId": "career_switcher",
+  "pages": [
+    {
+      "confidence": 1,
+      "pageNumber": 1,
+      "text": "Rowan Brooks\nJunior Data Analyst\nrowan.brooks@example.com\nManchester, United Kingdom\nFormer mathematics teacher moving into data analysis with applied SQL, Python, and dashboard project experience.\nSQL\nPython\nExcel\nPower BI\nData Cleaning\nPresentation\nMathematics Teacher\nRiverside Community School\nSep 2018 - Aug 2024\nAnalyzed assessment trends for 240 students and presented intervention recommendations.\nCoordinated curriculum planning across a team of seven teachers.\nBSc\nMathematics\nMoorland University\n2018\nTransit Delay Explorer\nCleaned public transport data and built an interactive delay dashboard.\nPython\nPower BI\nApplied Data Analysis Certificate\nNorthbridge Learning\n2025-02\nEnglish\nNative\nData portfolio\nhttps://example.com/rowan-brooks"
+    }
+  ],
+  "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+}

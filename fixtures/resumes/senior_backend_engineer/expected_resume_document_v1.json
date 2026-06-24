@@ -1,0 +1,585 @@
+{
+  "candidate": {
+    "email": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "avery.sen@example.com",
+          "page": 1,
+          "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "avery.sen@example.com",
+      "warnings": []
+    },
+    "fullName": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Avery Sen",
+          "page": 1,
+          "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Avery Sen",
+      "warnings": []
+    },
+    "headline": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Senior Backend Engineer",
+          "page": 1,
+          "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Senior Backend Engineer",
+      "warnings": []
+    },
+    "location": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Bengaluru, India",
+          "page": 1,
+          "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Bengaluru, India",
+      "warnings": []
+    }
+  },
+  "certifications": [
+    {
+      "id": "85428194-b76e-50b7-89a0-cbb85a96838e",
+      "issuedDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "2023-09",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2023-09",
+        "warnings": []
+      },
+      "issuer": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Synthetic Cloud Foundation",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Synthetic Cloud Foundation",
+        "warnings": []
+      },
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Cloud Architecture Professional",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Cloud Architecture Professional",
+        "warnings": []
+      }
+    }
+  ],
+  "createdAt": "2026-01-01T00:00:00Z",
+  "documentId": "b9bae4fb-4ad5-581e-82f2-9cbea5d5f4be",
+  "education": [
+    {
+      "degree": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "BTech",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "BTech",
+        "warnings": []
+      },
+      "endDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "2017",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "year",
+        "reviewState": "unreviewed",
+        "value": "2017",
+        "warnings": []
+      },
+      "fieldOfStudy": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Computer Science",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Computer Science",
+        "warnings": []
+      },
+      "id": "7abf02b2-314d-5994-bb0e-cf3bcb94086d",
+      "institution": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Riverdale Institute of Technology",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Riverdale Institute of Technology",
+        "warnings": []
+      }
+    }
+  ],
+  "experience": [
+    {
+      "company": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Northstar Systems",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Northstar Systems",
+        "warnings": []
+      },
+      "highlights": [
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Led a Go platform serving 18 million monthly API requests with a 99.95 percent availability target.",
+              "page": 1,
+              "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Led a Go platform serving 18 million monthly API requests with a 99.95 percent availability target.",
+          "warnings": []
+        },
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Reduced event-processing latency by 42 percent through partition redesign and idempotent consumers.",
+              "page": 1,
+              "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Reduced event-processing latency by 42 percent through partition redesign and idempotent consumers.",
+          "warnings": []
+        }
+      ],
+      "id": "d8c3314c-d3bf-551c-aac8-9b2e6746eb70",
+      "isCurrent": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Apr 2021 - Present",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": true,
+        "warnings": []
+      },
+      "startDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Apr 2021 - Present",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2021-04",
+        "warnings": []
+      },
+      "title": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Senior Backend Engineer",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Senior Backend Engineer",
+        "warnings": []
+      }
+    },
+    {
+      "company": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Harbor Stack",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Harbor Stack",
+        "warnings": []
+      },
+      "endDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Jun 2017 - Mar 2021",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2021-03",
+        "warnings": []
+      },
+      "highlights": [
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Designed PostgreSQL tenancy controls and audit trails for regulated customer workflows.",
+              "page": 1,
+              "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Designed PostgreSQL tenancy controls and audit trails for regulated customer workflows.",
+          "warnings": []
+        }
+      ],
+      "id": "c084f5d3-0565-5d2e-af71-1af509d1b95e",
+      "isCurrent": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Jun 2017 - Mar 2021",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": false,
+        "warnings": []
+      },
+      "startDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Jun 2017 - Mar 2021",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2017-06",
+        "warnings": []
+      },
+      "title": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Backend Engineer",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Backend Engineer",
+        "warnings": []
+      }
+    }
+  ],
+  "languages": [
+    {
+      "id": "32c27730-2730-5f2d-b70e-4c5f1508d067",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "English",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "English",
+        "warnings": []
+      },
+      "proficiency": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Professional",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Professional",
+        "warnings": []
+      }
+    },
+    {
+      "id": "11280725-a809-5cad-9d5a-1de3a84e3587",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Hindi",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Hindi",
+        "warnings": []
+      },
+      "proficiency": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Native",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Native",
+        "warnings": []
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "7ffa9132-fd94-59e0-8184-b55a5f24757c",
+      "label": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Portfolio",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Portfolio",
+        "warnings": []
+      },
+      "url": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "https://example.com/avery-sen",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "https://example.com/avery-sen",
+        "warnings": []
+      }
+    }
+  ],
+  "projects": [],
+  "review": {
+    "revision": 1,
+    "state": "needs_review",
+    "warnings": []
+  },
+  "schemaVersion": "resume-document.v1",
+  "skills": [
+    {
+      "id": "60f4b4d3-2c64-5fab-958b-82968ca4ed52",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Go",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Go",
+        "warnings": []
+      }
+    },
+    {
+      "id": "6be17d42-ae29-5514-96a5-dc438cf8864f",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "PostgreSQL",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "PostgreSQL",
+        "warnings": []
+      }
+    },
+    {
+      "id": "6d681cf6-4e74-5715-b2fc-9ecc92795bff",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Kubernetes",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Kubernetes",
+        "warnings": []
+      }
+    },
+    {
+      "id": "6c2d3206-8fa4-5b7a-80fd-695bb2ce85e1",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Kafka",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Kafka",
+        "warnings": []
+      }
+    },
+    {
+      "id": "5cbb7e31-cfe1-58e0-8ddd-d86af0710b07",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "AWS",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "AWS",
+        "warnings": []
+      }
+    },
+    {
+      "id": "7c40c20c-3557-52eb-9797-f7bfb2d484b7",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "OpenTelemetry",
+            "page": 1,
+            "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "OpenTelemetry",
+        "warnings": []
+      }
+    }
+  ],
+  "source": {
+    "contentSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5",
+    "fileObjectId": "529cf4b1-cb7d-59a0-9af8-17323cab0cdc",
+    "mediaType": "application/pdf",
+    "pageCount": 1,
+    "resumeId": "ce6d8c38-fb3a-54ad-8a5d-09dbd36d99f7",
+    "sourceVersionId": "c8cb6b81-3c2e-5341-b22b-de19299dac64"
+  },
+  "summary": {
+    "confidence": 1,
+    "evidence": [
+      {
+        "excerpt": "Backend engineer with nine years of experience building reliable multi-tenant platforms and event-driven services.",
+        "page": 1,
+        "sourceSha256": "b3ceaffee813c6c3966d6d073b1bffa3f36e93729d1002d23b6287ec8c7d99b5"
+      }
+    ],
+    "origin": "extracted",
+    "reviewState": "unreviewed",
+    "value": "Backend engineer with nine years of experience building reliable multi-tenant platforms and event-driven services.",
+    "warnings": []
+  }
+}

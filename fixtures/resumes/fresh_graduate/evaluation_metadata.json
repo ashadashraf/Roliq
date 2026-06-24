@@ -1,0 +1,26 @@
+{
+  "evaluationEmphasis": [
+    "limited experience",
+    "grade",
+    "internship versus full-time role"
+  ],
+  "fixtureId": "fresh_graduate",
+  "layoutTags": [
+    "education-first",
+    "single-internship",
+    "project-heavy"
+  ],
+  "metricWeights": {
+    "certifications": 1,
+    "dates": 1,
+    "education": 1,
+    "evidenceCoverage": 2,
+    "experience": 1,
+    "hallucination": 2,
+    "skills": 1
+  },
+  "pageCount": 1,
+  "sourceFile": "resume.pdf",
+  "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49",
+  "synthetic": true
+}

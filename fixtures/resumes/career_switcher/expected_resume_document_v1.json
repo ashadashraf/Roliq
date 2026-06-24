@@ -1,0 +1,541 @@
+{
+  "candidate": {
+    "email": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "rowan.brooks@example.com",
+          "page": 1,
+          "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "rowan.brooks@example.com",
+      "warnings": []
+    },
+    "fullName": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Rowan Brooks",
+          "page": 1,
+          "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Rowan Brooks",
+      "warnings": []
+    },
+    "headline": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Junior Data Analyst",
+          "page": 1,
+          "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Junior Data Analyst",
+      "warnings": []
+    },
+    "location": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Manchester, United Kingdom",
+          "page": 1,
+          "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Manchester, United Kingdom",
+      "warnings": []
+    }
+  },
+  "certifications": [
+    {
+      "id": "dffaa215-8639-5e85-a04a-c007423a5875",
+      "issuedDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "2025-02",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2025-02",
+        "warnings": []
+      },
+      "issuer": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Northbridge Learning",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Northbridge Learning",
+        "warnings": []
+      },
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Applied Data Analysis Certificate",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Applied Data Analysis Certificate",
+        "warnings": []
+      }
+    }
+  ],
+  "createdAt": "2026-01-01T00:00:00Z",
+  "documentId": "5d0a8608-ac3b-5034-b097-33f96a070324",
+  "education": [
+    {
+      "degree": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "BSc",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "BSc",
+        "warnings": []
+      },
+      "endDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "2018",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "year",
+        "reviewState": "unreviewed",
+        "value": "2018",
+        "warnings": []
+      },
+      "fieldOfStudy": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Mathematics",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Mathematics",
+        "warnings": []
+      },
+      "id": "9ff98761-e0c5-5745-a2ae-ae29545d364f",
+      "institution": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Moorland University",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Moorland University",
+        "warnings": []
+      }
+    }
+  ],
+  "experience": [
+    {
+      "company": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Riverside Community School",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Riverside Community School",
+        "warnings": []
+      },
+      "endDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Sep 2018 - Aug 2024",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2024-08",
+        "warnings": []
+      },
+      "highlights": [
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Analyzed assessment trends for 240 students and presented intervention recommendations.",
+              "page": 1,
+              "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Analyzed assessment trends for 240 students and presented intervention recommendations.",
+          "warnings": []
+        },
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Coordinated curriculum planning across a team of seven teachers.",
+              "page": 1,
+              "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Coordinated curriculum planning across a team of seven teachers.",
+          "warnings": []
+        }
+      ],
+      "id": "7b60fb5a-940d-56b8-812d-cb62de9ff8f3",
+      "isCurrent": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Sep 2018 - Aug 2024",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": false,
+        "warnings": []
+      },
+      "startDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Sep 2018 - Aug 2024",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2018-09",
+        "warnings": []
+      },
+      "title": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Mathematics Teacher",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Mathematics Teacher",
+        "warnings": []
+      }
+    }
+  ],
+  "languages": [
+    {
+      "id": "5c355d64-69e0-5c39-9dde-6cb2ab42d57e",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "English",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "English",
+        "warnings": []
+      },
+      "proficiency": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Native",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Native",
+        "warnings": []
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "b856f81d-704d-5a10-bc8b-b9036982cdd8",
+      "label": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Data portfolio",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Data portfolio",
+        "warnings": []
+      },
+      "url": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "https://example.com/rowan-brooks",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "https://example.com/rowan-brooks",
+        "warnings": []
+      }
+    }
+  ],
+  "projects": [
+    {
+      "description": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Cleaned public transport data and built an interactive delay dashboard.",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Cleaned public transport data and built an interactive delay dashboard.",
+        "warnings": []
+      },
+      "highlights": [],
+      "id": "59724651-0dac-57c2-a48a-3cfe71bf98b1",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Transit Delay Explorer",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Transit Delay Explorer",
+        "warnings": []
+      },
+      "technologies": [
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Python",
+              "page": 1,
+              "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Python",
+          "warnings": []
+        },
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Power BI",
+              "page": 1,
+              "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Power BI",
+          "warnings": []
+        }
+      ]
+    }
+  ],
+  "review": {
+    "revision": 1,
+    "state": "needs_review",
+    "warnings": []
+  },
+  "schemaVersion": "resume-document.v1",
+  "skills": [
+    {
+      "id": "9485c77f-d102-5c8e-9233-24ec0eed729f",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "SQL",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "SQL",
+        "warnings": []
+      }
+    },
+    {
+      "id": "5398ab97-edbf-5612-91df-f34714f36529",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Python",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Python",
+        "warnings": []
+      }
+    },
+    {
+      "id": "c09944a6-6f67-5c9c-acdb-189d41299589",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Excel",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Excel",
+        "warnings": []
+      }
+    },
+    {
+      "id": "3dc7036b-cd29-5b33-b8d8-75b2a4c43cf4",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Power BI",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Power BI",
+        "warnings": []
+      }
+    },
+    {
+      "id": "0a7d9a85-3b7e-5633-9124-72c8e82e8709",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Data Cleaning",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Data Cleaning",
+        "warnings": []
+      }
+    },
+    {
+      "id": "a42a3923-c8c7-5c06-838c-a883cdaaf1da",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Presentation",
+            "page": 1,
+            "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Presentation",
+        "warnings": []
+      }
+    }
+  ],
+  "source": {
+    "contentSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05",
+    "fileObjectId": "e124f9eb-4f68-57e5-a17f-7455d9981d3f",
+    "mediaType": "application/pdf",
+    "pageCount": 1,
+    "resumeId": "4df37872-63a9-585f-96a8-b9d7f99ec4f3",
+    "sourceVersionId": "8a72fcfe-78bf-5406-8b63-fb4b87b394e6"
+  },
+  "summary": {
+    "confidence": 1,
+    "evidence": [
+      {
+        "excerpt": "Former mathematics teacher moving into data analysis with applied SQL, Python, and dashboard project experience.",
+        "page": 1,
+        "sourceSha256": "0b7a1331cb67435939c6fb8b3446c7c0968f6ef9a85c5c45d666fc9315e64f05"
+      }
+    ],
+    "origin": "extracted",
+    "reviewState": "unreviewed",
+    "value": "Former mathematics teacher moving into data analysis with applied SQL, Python, and dashboard project experience.",
+    "warnings": []
+  }
+}

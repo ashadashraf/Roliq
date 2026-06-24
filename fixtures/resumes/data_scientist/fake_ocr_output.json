@@ -1,0 +1,11 @@
+{
+  "fixtureId": "data_scientist",
+  "pages": [
+    {
+      "confidence": 1,
+      "pageNumber": 1,
+      "text": "Jordan Kim\nData Scientist\njordan.kim@example.com\nToronto, Canada\nData scientist translating ambiguous business questions into monitored statistical and machine-learning products.\nPython\nSQL\nPyTorch\nscikit-learn\nExperiment Design\nData Visualization\nData Scientist\nAtlas Health Analytics\nAug 2021 - Present\nDeveloped demand forecasts that reduced weekly inventory error by 17 percent.\nIntroduced model monitoring for drift, calibration, and subgroup performance.\nData Analyst\nCedar Insights\nMay 2019 - Jul 2021\nDesigned controlled experiments and executive dashboards for retention programs.\nMSc\nStatistics\nNorth Lake University\n2019\nForecast Reliability Kit\nSynthetic benchmark for interval calibration.\nPython\nPyTorch\nEnglish\nNative\nKorean\nConversational\nResearch notes\nhttps://example.com/jordan-kim"
+    }
+  ],
+  "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+}

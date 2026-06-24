@@ -1,0 +1,5 @@
+jsonschema[format]==4.25.1
+pillow==12.2.0
+pymupdf==1.26.5
+pypdf==6.1.1
+reportlab==4.4.4

@@ -1,0 +1,601 @@
+{
+  "candidate": {
+    "email": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "jordan.kim@example.com",
+          "page": 1,
+          "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "jordan.kim@example.com",
+      "warnings": []
+    },
+    "fullName": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Jordan Kim",
+          "page": 1,
+          "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Jordan Kim",
+      "warnings": []
+    },
+    "headline": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Data Scientist",
+          "page": 1,
+          "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Data Scientist",
+      "warnings": []
+    },
+    "location": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Toronto, Canada",
+          "page": 1,
+          "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Toronto, Canada",
+      "warnings": []
+    }
+  },
+  "certifications": [],
+  "createdAt": "2026-01-01T00:00:00Z",
+  "documentId": "aa17c85f-b580-5368-944f-185711a52650",
+  "education": [
+    {
+      "degree": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "MSc",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "MSc",
+        "warnings": []
+      },
+      "endDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "2019",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "year",
+        "reviewState": "unreviewed",
+        "value": "2019",
+        "warnings": []
+      },
+      "fieldOfStudy": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Statistics",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Statistics",
+        "warnings": []
+      },
+      "id": "9521b791-ccd1-5900-8d75-0457ed7d7490",
+      "institution": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "North Lake University",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "North Lake University",
+        "warnings": []
+      }
+    }
+  ],
+  "experience": [
+    {
+      "company": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Atlas Health Analytics",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Atlas Health Analytics",
+        "warnings": []
+      },
+      "highlights": [
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Developed demand forecasts that reduced weekly inventory error by 17 percent.",
+              "page": 1,
+              "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Developed demand forecasts that reduced weekly inventory error by 17 percent.",
+          "warnings": []
+        },
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Introduced model monitoring for drift, calibration, and subgroup performance.",
+              "page": 1,
+              "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Introduced model monitoring for drift, calibration, and subgroup performance.",
+          "warnings": []
+        }
+      ],
+      "id": "6498b161-cd66-5174-ba7d-0c7392218c2e",
+      "isCurrent": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Aug 2021 - Present",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": true,
+        "warnings": []
+      },
+      "startDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Aug 2021 - Present",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2021-08",
+        "warnings": []
+      },
+      "title": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Data Scientist",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Data Scientist",
+        "warnings": []
+      }
+    },
+    {
+      "company": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Cedar Insights",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Cedar Insights",
+        "warnings": []
+      },
+      "endDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "May 2019 - Jul 2021",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2021-07",
+        "warnings": []
+      },
+      "highlights": [
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Designed controlled experiments and executive dashboards for retention programs.",
+              "page": 1,
+              "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Designed controlled experiments and executive dashboards for retention programs.",
+          "warnings": []
+        }
+      ],
+      "id": "57261839-3c91-5817-b50b-603ed4b85bbc",
+      "isCurrent": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "May 2019 - Jul 2021",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": false,
+        "warnings": []
+      },
+      "startDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "May 2019 - Jul 2021",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2019-05",
+        "warnings": []
+      },
+      "title": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Data Analyst",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Data Analyst",
+        "warnings": []
+      }
+    }
+  ],
+  "languages": [
+    {
+      "id": "ba17d8b5-b3cf-5e9e-ad49-d367d84ce00e",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "English",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "English",
+        "warnings": []
+      },
+      "proficiency": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Native",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Native",
+        "warnings": []
+      }
+    },
+    {
+      "id": "90ac1d28-1908-56f6-8e72-e4661b78da96",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Korean",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Korean",
+        "warnings": []
+      },
+      "proficiency": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Conversational",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Conversational",
+        "warnings": []
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "87de0cc7-c57c-579f-8c9f-232cfc28ba37",
+      "label": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Research notes",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Research notes",
+        "warnings": []
+      },
+      "url": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "https://example.com/jordan-kim",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "https://example.com/jordan-kim",
+        "warnings": []
+      }
+    }
+  ],
+  "projects": [
+    {
+      "description": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Synthetic benchmark for interval calibration.",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Synthetic benchmark for interval calibration.",
+        "warnings": []
+      },
+      "highlights": [],
+      "id": "ab6c5ab0-8a81-5065-9c37-37670ac98fbc",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Forecast Reliability Kit",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Forecast Reliability Kit",
+        "warnings": []
+      },
+      "technologies": [
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Python",
+              "page": 1,
+              "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Python",
+          "warnings": []
+        },
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "PyTorch",
+              "page": 1,
+              "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "PyTorch",
+          "warnings": []
+        }
+      ]
+    }
+  ],
+  "review": {
+    "revision": 1,
+    "state": "needs_review",
+    "warnings": []
+  },
+  "schemaVersion": "resume-document.v1",
+  "skills": [
+    {
+      "id": "650b0d8d-6c89-5a1b-ac08-9cae7687a566",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Python",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Python",
+        "warnings": []
+      }
+    },
+    {
+      "id": "f598394c-4c88-5d19-929a-c1255150caad",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "SQL",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "SQL",
+        "warnings": []
+      }
+    },
+    {
+      "id": "d88bc036-e557-50cb-8069-a83abc14761e",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "PyTorch",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "PyTorch",
+        "warnings": []
+      }
+    },
+    {
+      "id": "cf179ce1-dffd-50e2-b641-87b047a9a683",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "scikit-learn",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "scikit-learn",
+        "warnings": []
+      }
+    },
+    {
+      "id": "624a58e7-e7ca-5b61-8024-72e637b75604",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Experiment Design",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Experiment Design",
+        "warnings": []
+      }
+    },
+    {
+      "id": "1923b44b-129f-5bd0-b4e1-da7005fc1a6d",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Data Visualization",
+            "page": 1,
+            "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Data Visualization",
+        "warnings": []
+      }
+    }
+  ],
+  "source": {
+    "contentSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e",
+    "fileObjectId": "a128e1cd-aa79-59d6-8a9c-4350bcaf85ab",
+    "mediaType": "application/pdf",
+    "pageCount": 1,
+    "resumeId": "80fa1356-22b6-5682-9bf6-8c42dc417c48",
+    "sourceVersionId": "add5b913-3b87-5222-b53a-4cddbc5129a9"
+  },
+  "summary": {
+    "confidence": 1,
+    "evidence": [
+      {
+        "excerpt": "Data scientist translating ambiguous business questions into monitored statistical and machine-learning products.",
+        "page": 1,
+        "sourceSha256": "ef9866fb5be611cf64c7442dce18ceea1d8271224af0a682f81419125d68bc6e"
+      }
+    ],
+    "origin": "extracted",
+    "reviewState": "unreviewed",
+    "value": "Data scientist translating ambiguous business questions into monitored statistical and machine-learning products.",
+    "warnings": []
+  }
+}

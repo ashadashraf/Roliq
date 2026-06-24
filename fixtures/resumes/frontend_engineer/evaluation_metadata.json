@@ -1,0 +1,26 @@
+{
+  "evaluationEmphasis": [
+    "technology punctuation",
+    "performance numbers",
+    "project extraction"
+  ],
+  "fixtureId": "frontend_engineer",
+  "layoutTags": [
+    "portfolio-link",
+    "performance-metrics",
+    "accessibility"
+  ],
+  "metricWeights": {
+    "certifications": 1,
+    "dates": 1,
+    "education": 1,
+    "evidenceCoverage": 2,
+    "experience": 1,
+    "hallucination": 2,
+    "skills": 1
+  },
+  "pageCount": 1,
+  "sourceFile": "resume.pdf",
+  "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7",
+  "synthetic": true
+}

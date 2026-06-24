@@ -1,0 +1,508 @@
+{
+  "candidate": {
+    "email": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "nia.patel@example.com",
+          "page": 1,
+          "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "nia.patel@example.com",
+      "warnings": []
+    },
+    "fullName": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Nia Patel",
+          "page": 1,
+          "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Nia Patel",
+      "warnings": []
+    },
+    "headline": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Graduate Software Engineer",
+          "page": 1,
+          "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Graduate Software Engineer",
+      "warnings": []
+    },
+    "location": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Pune, India",
+          "page": 1,
+          "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Pune, India",
+      "warnings": []
+    }
+  },
+  "certifications": [],
+  "createdAt": "2026-01-01T00:00:00Z",
+  "documentId": "9adef4e9-d336-522f-8fed-058dcd02b706",
+  "education": [
+    {
+      "degree": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "BEng",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "BEng",
+        "warnings": []
+      },
+      "endDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "2025",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "year",
+        "reviewState": "unreviewed",
+        "value": "2025",
+        "warnings": []
+      },
+      "fieldOfStudy": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Computer Science",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Computer Science",
+        "warnings": []
+      },
+      "grade": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "8.6 GPA",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "8.6 GPA",
+        "warnings": []
+      },
+      "id": "3ae2d1c4-3ce2-5614-9c48-1f50ee3d97f9",
+      "institution": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Western Valley College",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Western Valley College",
+        "warnings": []
+      }
+    }
+  ],
+  "experience": [
+    {
+      "company": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Maple Byte Studio",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Maple Byte Studio",
+        "warnings": []
+      },
+      "endDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Jan 2025 - Jun 2025",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2025-06",
+        "warnings": []
+      },
+      "highlights": [
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Added API validation and unit tests for a campus scheduling product.",
+              "page": 1,
+              "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Added API validation and unit tests for a campus scheduling product.",
+          "warnings": []
+        }
+      ],
+      "id": "cf52b280-1b38-55ba-acfd-ee6cedb220d5",
+      "isCurrent": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Jan 2025 - Jun 2025",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": false,
+        "warnings": []
+      },
+      "startDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Jan 2025 - Jun 2025",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2025-01",
+        "warnings": []
+      },
+      "title": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Software Engineering Intern",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Software Engineering Intern",
+        "warnings": []
+      }
+    }
+  ],
+  "languages": [
+    {
+      "id": "23405796-254d-54e2-9ee4-f7b3defabbac",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "English",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "English",
+        "warnings": []
+      },
+      "proficiency": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Professional",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Professional",
+        "warnings": []
+      }
+    },
+    {
+      "id": "7d3aee2c-4670-5c64-8ba2-c5fb63938447",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Marathi",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Marathi",
+        "warnings": []
+      },
+      "proficiency": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Native",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Native",
+        "warnings": []
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "8510b379-6026-57cd-bb87-00507be0ec01",
+      "label": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Projects",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Projects",
+        "warnings": []
+      },
+      "url": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "https://example.com/nia-patel",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "https://example.com/nia-patel",
+        "warnings": []
+      }
+    }
+  ],
+  "projects": [
+    {
+      "description": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Peer study-group scheduling application.",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Peer study-group scheduling application.",
+        "warnings": []
+      },
+      "highlights": [],
+      "id": "10d76c0b-a15a-5a49-ab53-8028bf220f30",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Study Circle",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Study Circle",
+        "warnings": []
+      },
+      "technologies": [
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Java",
+              "page": 1,
+              "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Java",
+          "warnings": []
+        },
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "REST APIs",
+              "page": 1,
+              "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "REST APIs",
+          "warnings": []
+        }
+      ]
+    }
+  ],
+  "review": {
+    "revision": 1,
+    "state": "needs_review",
+    "warnings": []
+  },
+  "schemaVersion": "resume-document.v1",
+  "skills": [
+    {
+      "id": "15c6ceec-a340-5a34-baf5-cedce664af85",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Java",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Java",
+        "warnings": []
+      }
+    },
+    {
+      "id": "57dd108b-13dc-58ee-ab86-13daa391da6c",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Python",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Python",
+        "warnings": []
+      }
+    },
+    {
+      "id": "630c083f-3991-5fbf-9708-f4db5c09eeba",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Git",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Git",
+        "warnings": []
+      }
+    },
+    {
+      "id": "1cb8ada0-2780-5653-bc59-29509805469a",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "REST APIs",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "REST APIs",
+        "warnings": []
+      }
+    },
+    {
+      "id": "898282ae-83c6-58e4-b697-41447cc2b792",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Unit Testing",
+            "page": 1,
+            "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Unit Testing",
+        "warnings": []
+      }
+    }
+  ],
+  "source": {
+    "contentSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49",
+    "fileObjectId": "7b223390-87d6-5df0-bfb9-2527f222e78b",
+    "mediaType": "application/pdf",
+    "pageCount": 1,
+    "resumeId": "864cd3e6-48f4-5870-85d1-06dc0155b0bd",
+    "sourceVersionId": "dc185cb1-6105-5978-a6b8-79f912b8c91b"
+  },
+  "summary": {
+    "confidence": 1,
+    "evidence": [
+      {
+        "excerpt": "Computer science graduate with internship and project experience in web services, testing, and data structures.",
+        "page": 1,
+        "sourceSha256": "a8e16a30950f50bbbadcf36f471edec6ebb8ce370e1686372ffd043686bdef49"
+      }
+    ],
+    "origin": "extracted",
+    "reviewState": "unreviewed",
+    "value": "Computer science graduate with internship and project experience in web services, testing, and data structures.",
+    "warnings": []
+  }
+}

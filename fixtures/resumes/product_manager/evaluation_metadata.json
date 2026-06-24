@@ -1,0 +1,26 @@
+{
+  "evaluationEmphasis": [
+    "nontechnical skills",
+    "adoption metric",
+    "certification"
+  ],
+  "fixtureId": "product_manager",
+  "layoutTags": [
+    "business-language",
+    "cross-functional",
+    "adoption-metrics"
+  ],
+  "metricWeights": {
+    "certifications": 1,
+    "dates": 1,
+    "education": 1,
+    "evidenceCoverage": 2,
+    "experience": 1,
+    "hallucination": 2,
+    "skills": 1
+  },
+  "pageCount": 1,
+  "sourceFile": "resume.pdf",
+  "sourceSha256": "a7f88ce6552018414449f5e66c6ca1dbbd9a0ef274633393ebf9686beeb23b4c",
+  "synthetic": true
+}

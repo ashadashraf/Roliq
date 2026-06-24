@@ -1,0 +1,601 @@
+{
+  "candidate": {
+    "email": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "maya.torres@example.com",
+          "page": 1,
+          "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "maya.torres@example.com",
+      "warnings": []
+    },
+    "fullName": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Maya Torres",
+          "page": 1,
+          "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Maya Torres",
+      "warnings": []
+    },
+    "headline": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Frontend Engineer",
+          "page": 1,
+          "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Frontend Engineer",
+      "warnings": []
+    },
+    "location": {
+      "confidence": 1,
+      "evidence": [
+        {
+          "excerpt": "Madrid, Spain",
+          "page": 1,
+          "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+        }
+      ],
+      "origin": "extracted",
+      "reviewState": "unreviewed",
+      "value": "Madrid, Spain",
+      "warnings": []
+    }
+  },
+  "certifications": [],
+  "createdAt": "2026-01-01T00:00:00Z",
+  "documentId": "c2b0c955-01a5-5bd4-98c0-a9165e35bc81",
+  "education": [
+    {
+      "degree": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "BSc",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "BSc",
+        "warnings": []
+      },
+      "endDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "2020",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "year",
+        "reviewState": "unreviewed",
+        "value": "2020",
+        "warnings": []
+      },
+      "fieldOfStudy": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Interactive Media",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Interactive Media",
+        "warnings": []
+      },
+      "id": "ddd38f88-e2f8-5d64-bca3-27c4e5de249d",
+      "institution": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Central Design University",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Central Design University",
+        "warnings": []
+      }
+    }
+  ],
+  "experience": [
+    {
+      "company": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Lumen Commerce",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Lumen Commerce",
+        "warnings": []
+      },
+      "highlights": [
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Built an accessible component library adopted by six product teams.",
+              "page": 1,
+              "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Built an accessible component library adopted by six product teams.",
+          "warnings": []
+        },
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Improved largest contentful paint from 3.4 seconds to 1.8 seconds on the checkout flow.",
+              "page": 1,
+              "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Improved largest contentful paint from 3.4 seconds to 1.8 seconds on the checkout flow.",
+          "warnings": []
+        }
+      ],
+      "id": "f916cbb1-4916-51c8-86cc-31256a488afb",
+      "isCurrent": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Feb 2022 - Present",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": true,
+        "warnings": []
+      },
+      "startDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Feb 2022 - Present",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2022-02",
+        "warnings": []
+      },
+      "title": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Frontend Engineer",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Frontend Engineer",
+        "warnings": []
+      }
+    },
+    {
+      "company": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Brightside Labs",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Brightside Labs",
+        "warnings": []
+      },
+      "endDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Jul 2020 - Jan 2022",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2022-01",
+        "warnings": []
+      },
+      "highlights": [
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "Created tested React interfaces from product and research specifications.",
+              "page": 1,
+              "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "Created tested React interfaces from product and research specifications.",
+          "warnings": []
+        }
+      ],
+      "id": "1cda5200-40ec-5f60-8a76-8f4d105812d6",
+      "isCurrent": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Jul 2020 - Jan 2022",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": false,
+        "warnings": []
+      },
+      "startDate": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Jul 2020 - Jan 2022",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "precision": "month",
+        "reviewState": "unreviewed",
+        "value": "2020-07",
+        "warnings": []
+      },
+      "title": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Junior Web Developer",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Junior Web Developer",
+        "warnings": []
+      }
+    }
+  ],
+  "languages": [
+    {
+      "id": "e608cec8-f1e8-5df9-a125-499811a74a45",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Spanish",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Spanish",
+        "warnings": []
+      },
+      "proficiency": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Native",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Native",
+        "warnings": []
+      }
+    },
+    {
+      "id": "e464d187-422c-5469-9023-fc6cf8623ee3",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "English",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "English",
+        "warnings": []
+      },
+      "proficiency": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Professional",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Professional",
+        "warnings": []
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "ec21b266-84ee-5b08-95a6-f0030105d831",
+      "label": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "GitHub",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "GitHub",
+        "warnings": []
+      },
+      "url": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "https://example.com/maya-torres",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "https://example.com/maya-torres",
+        "warnings": []
+      }
+    }
+  ],
+  "projects": [
+    {
+      "description": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Open-source color contrast review utility.",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Open-source color contrast review utility.",
+        "warnings": []
+      },
+      "highlights": [],
+      "id": "bf213ae9-c305-5e6e-9193-b0dcb026d03e",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Contrast Compass",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Contrast Compass",
+        "warnings": []
+      },
+      "technologies": [
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "TypeScript",
+              "page": 1,
+              "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "TypeScript",
+          "warnings": []
+        },
+        {
+          "confidence": 1,
+          "evidence": [
+            {
+              "excerpt": "React",
+              "page": 1,
+              "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+            }
+          ],
+          "origin": "extracted",
+          "reviewState": "unreviewed",
+          "value": "React",
+          "warnings": []
+        }
+      ]
+    }
+  ],
+  "review": {
+    "revision": 1,
+    "state": "needs_review",
+    "warnings": []
+  },
+  "schemaVersion": "resume-document.v1",
+  "skills": [
+    {
+      "id": "2debb071-7d42-5c89-9247-320656a4f5e0",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "TypeScript",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "TypeScript",
+        "warnings": []
+      }
+    },
+    {
+      "id": "2b704c5d-8b17-5dd7-8bb5-052f3d4ea5e4",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "React",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "React",
+        "warnings": []
+      }
+    },
+    {
+      "id": "5706c4c0-3f12-56ea-927d-c6bfe22e4f7d",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Next.js",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Next.js",
+        "warnings": []
+      }
+    },
+    {
+      "id": "d3062a5a-899a-5c5d-a387-c18efaa2f4f9",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "CSS",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "CSS",
+        "warnings": []
+      }
+    },
+    {
+      "id": "b46a1d22-3e05-5814-bee2-75b53361facb",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Accessibility",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Accessibility",
+        "warnings": []
+      }
+    },
+    {
+      "id": "fbec3552-6685-5e6f-8fdd-c83192df65e0",
+      "name": {
+        "confidence": 1,
+        "evidence": [
+          {
+            "excerpt": "Playwright",
+            "page": 1,
+            "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+          }
+        ],
+        "origin": "extracted",
+        "reviewState": "unreviewed",
+        "value": "Playwright",
+        "warnings": []
+      }
+    }
+  ],
+  "source": {
+    "contentSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7",
+    "fileObjectId": "12753af0-c9a4-5f52-ad76-d916a134bbfc",
+    "mediaType": "application/pdf",
+    "pageCount": 1,
+    "resumeId": "4e4b553d-93ff-5434-80a4-5e34b9cfa71a",
+    "sourceVersionId": "679b547d-b31c-535a-9e7b-a34da642c4f0"
+  },
+  "summary": {
+    "confidence": 1,
+    "evidence": [
+      {
+        "excerpt": "Frontend engineer focused on accessible design systems, performance, and maintainable product interfaces.",
+        "page": 1,
+        "sourceSha256": "c2e9709d37a4b1fcab1922eaa930fdbf7300a59c8c7640ca4991319be5f9f9b7"
+      }
+    ],
+    "origin": "extracted",
+    "reviewState": "unreviewed",
+    "value": "Frontend engineer focused on accessible design systems, performance, and maintainable product interfaces.",
+    "warnings": []
+  }
+}

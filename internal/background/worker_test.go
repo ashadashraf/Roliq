@@ -29,3 +29,13 @@ func TestValidateDocumentDOCX(t *testing.T) {
 		t.Fatal(err)
 	}
 }
+
+func TestNormalizeClamAVDetailRemovesProtocolTerminator(t *testing.T) {
+	detail := normalizeClamAVDetail([]byte("stream: Eicar-Signature FOUND\x00\n"))
+	if detail != "stream: Eicar-Signature FOUND" {
+		t.Fatalf("unexpected detail %q", detail)
+	}
+	if bytes.ContainsRune([]byte(detail), '\x00') {
+		t.Fatal("ClamAV detail must be safe to persist as PostgreSQL text")
+	}
+}
